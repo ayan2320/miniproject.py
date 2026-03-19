@@ -20,10 +20,20 @@ Run the scripts (PowerShell):
 
 ```powershell
 # Quick check (sample)
-python analysis_clean.py --sample 100
+python analysis.py --sample 100
 
 # Full EDA (writes images to ./plots)
-python eda_clean.py
+python eda.py
 ```
-
-If you want me to replace the corrupted `analysis.py` and `eda.py` files with the cleaned versions, say "Yes, overwrite originals" and I'll do that and re-run validations.
+project topic: Data exploration and visualization
+Title: Explore Customer Purchase Behavior for Marketing Decisions
+A marketing team wants insights into customer buying patterns.
+Key Tasks:
+• Load dataset using pandas.
+• Perform exploratory data analysis.
+• Visualize trends using charts.
+• Identify high-value customers.
+• Interpret insights for business.
+Data Source:
+https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
+to run app.py type in terminal: streamlit run app.py
